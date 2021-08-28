@@ -5,7 +5,6 @@ import time
 import json
 
 def get_time():
-    now = datetime.datetime.now()
     return datetime.datetime.now().strftime("%H:%M:%S   %Y-%m-%d")
 
 def get_token():
